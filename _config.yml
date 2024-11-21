@@ -24,7 +24,7 @@ pretty_urls:
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: blog
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
@@ -73,7 +73,8 @@ tag_map:
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
 
-# Date / Time format
+# Date / Time format<!-- markdownlint-enable MD037 -->
+
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
@@ -100,6 +101,11 @@ theme: cactus
 theme_config:
   copyright:
     start_year: 
+  nav:
+    Domov: /
+    Blog: /blog/
+    O Mne: /about/
+    Podpora: /support
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
