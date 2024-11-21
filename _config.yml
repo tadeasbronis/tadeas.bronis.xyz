@@ -93,6 +93,10 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+  # Ignore logo from cactus theme
+  - "**/themes/cactus/source/images/logo.png"
+  # Ignore logo from cactus theme
+  - "**/themes/cactus/source/images/((apple-touch-icon|favicon-192x192).png|favicon.ico)"
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -106,11 +110,6 @@ theme_config:
     Blog: /blog/
     O Mne: /about/
     Podpora: /support
-  # logo:
-  #   enabled: true
-  #   width: 50
-  #   height: 50
-  #   url: /images/logo.png
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
