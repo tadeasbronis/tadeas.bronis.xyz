@@ -26,6 +26,12 @@ cd tadeas.bronis.xyz
 # Install packages
 npm install
 
+# Pull all git submodules (usually themes)
+git submodule update --init --recursive
+
+# Generate static files
+hexo generate
+
 # Start the server
 hexo server --open
 ```
